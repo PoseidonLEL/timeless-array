@@ -1,6 +1,6 @@
 # Timeless Array 1D
 
-A lightweight, NumPy-based **versioned one-dimensional array** with selective historical restoration. Insert or remove elements, then rewind specific indices to values from an earlier array state without replacing the rest of the current array.
+A lightweight, NumPy-based **one-dimensional array** with selective historical restoration. Insert or remove elements, then rewind specific indices to values from an earlier array state without replacing the rest of the current array.
 
 ## Features
 
