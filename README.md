@@ -82,7 +82,3 @@ For reliable history, use the provided methods rather than mutating `arr.array` 
 ## Project status
 
 An experimental, single-file implementation focused on straightforward version tracking and selective historical restoration.
-
-## License
-
-No license is included by default. Add a `LICENSE` file before distributing under specific reuse terms.
