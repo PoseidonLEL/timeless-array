@@ -71,7 +71,7 @@ class timeless_array_1D:
 
         pastArray = self.array_history[-1-how_far_back]
         if(np.any(indices>=pastArray.size) or np.any(indices < -pastArray.size)):
-            return "Index does not exist in this past instance!"
+            raise IndexError(Index does not exist in this past instance!")
         if(np.any(indices>=self.array.size) or np.any(indices < -self.array.size)):
             raise IndexError("Index is outside the current array!")
 
