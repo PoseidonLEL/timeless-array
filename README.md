@@ -55,6 +55,7 @@ print(len(arr.array_history))  # 4 snapshots
 ### Rewind semantics
 
 `how_far_back=1` selects the version immediately preceding the current version. `how_far_back=2` selects the version before that.
+`revert_entire_array` exists if you wish to revert an entire array instead of individual elements.
 
 ```python
 arr = timeless_array_1D([1, 2, 3])
