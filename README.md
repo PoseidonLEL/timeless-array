@@ -49,7 +49,7 @@ print(len(arr.array_history))  # 4 snapshots
 | `timeless_array_1D(array)` | Initialize from a 1D array-like input, converted to `float32`. |
 | `add_to_array(value, index=None, to_end=False)` | Insert one value at `index`, or append when `to_end=True`. |
 | `remove_from_array(index)` | Remove one element at `index`. |
-| `rewind(index, how_far_back)` | Restore the selected list of integer indices from an earlier snapshot. |
+| `rewind(index, how_far_back, revert_entire_array)` | Restore the selected list of integer indices from an earlier snapshot. |
 | `update_history(new_array)` | Append an array reference to the version history; intended for internal use. |
 
 ### Rewind semantics
